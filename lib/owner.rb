@@ -55,6 +55,6 @@ class Owner
     self.pets.each do |k, v|
       pets[k].each {|p| p.mood = 'nervous'}
     end
-    self.reset_all
+    reset_all
   end
 end
