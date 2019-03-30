@@ -61,7 +61,6 @@ class Owner
   def list_pets
     binding.pry
     fish = self.pets[fish].count
-    binding.pry
     "I have 2 #{fish}, 3 #{dogs}(s), and 1 #{cats}(s)."
   end
 end
