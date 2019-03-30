@@ -19,7 +19,4 @@ class Owner
     @@all.clear
   end
 
-  def species
-
-  end
 end
