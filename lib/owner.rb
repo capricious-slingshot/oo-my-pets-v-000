@@ -52,8 +52,8 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each do |pet|
-      pet.each {|p| p.mood = 'nervous'}
+    self.pets.each do |k, v|
+      pets[k].each {|p| p.mood = 'nervous'}
     end
   end
 end
