@@ -3,6 +3,6 @@ class Fish
 
   def initialize(name)
     @name = name
-    @mood = mood
+    # @mood = mood
   end
 end
